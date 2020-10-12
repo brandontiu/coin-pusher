@@ -10,6 +10,8 @@ public class DropperScript : MonoBehaviour {
     private float leftWallXcoord;
     public GameObject rightwall;
     private float rightWallXcoord;
+    public GameObject scoreText;
+    private ScoreScript ss;
 
     // Start is called before the first frame update
     void Start() {
@@ -17,6 +19,9 @@ public class DropperScript : MonoBehaviour {
         rb = this.GetComponent<Rigidbody>();
         leftWallXcoord = leftwall.transform.position.x;
         rightWallXcoord = rightwall.transform.position.x;
+
+        // get the score script from the scoreText object
+        ss = scoreText.GetComponent<ScoreScript>();
     }
 
     // Update is called once per frame
@@ -35,9 +40,11 @@ public class DropperScript : MonoBehaviour {
         // define the velocity of movement
         rb.velocity = direction * moveSpeed;
 
-        // if user wants to drop a coin
+        // if user wants to drop a coin, create a coin and decrease
+        // the user's score by 1
         if (Input.GetKeyDown("space")) {
             Instantiate(coin, this.transform.position, this.transform.rotation);
+            ss.decreaseScore(1);
         }
     }
 }
