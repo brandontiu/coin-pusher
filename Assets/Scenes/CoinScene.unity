@@ -194,6 +194,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 396305b13e5474ac4887ef6fc0dce726, type: 3}
+--- !u!1 &288743300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2366736065234409901, guid: 396305b13e5474ac4887ef6fc0dce726,
+    type: 3}
+  m_PrefabInstance: {fileID: 400943236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &400943236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -742,6 +748,7 @@ GameObject:
   - component: {fileID: 1020781210}
   - component: {fileID: 1020781209}
   - component: {fileID: 1020781208}
+  - component: {fileID: 1020781212}
   m_Layer: 0
   m_Name: Top
   m_TagString: Untagged
@@ -822,6 +829,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020781212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020781207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385beaa5ea2244216bcfb01c9c064fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverText: {fileID: 0}
 --- !u!1 &1060770206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   moveSpeed: 2
-  coin: {fileID: 2366736065234409901, guid: 396305b13e5474ac4887ef6fc0dce726, type: 3}
+  coin: {fileID: 288743300}
   leftwall: {fileID: 1220383684}
   rightwall: {fileID: 1547249844}
   scoreText: {fileID: 1060770206}
