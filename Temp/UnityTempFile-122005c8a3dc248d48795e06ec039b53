@@ -288,4 +288,6 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/DropperScript.cs"
+"Assets/Scripts/PayoutScript.cs"
 "Assets/Scripts/PusherScript.cs"
+"Assets/Scripts/ScoreScript.cs"

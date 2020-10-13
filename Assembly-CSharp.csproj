@@ -62,8 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DropperScript.cs" />
-    <Compile Include="Assets\PusherScript.cs" />
+    <Compile Include="Assets\Scripts\DropperScript.cs" />
+    <Compile Include="Assets\Scripts\PayoutScript.cs" />
+    <Compile Include="Assets\Scripts\PusherScript.cs" />
+    <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/brandontiu/Unity Projects/Coin Pusher/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

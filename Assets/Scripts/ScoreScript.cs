@@ -13,22 +13,22 @@ public class ScoreScript : MonoBehaviour {
         // get a copy of the initial score and display it
         currentScore = initScore;
         scoreText = this.GetComponent<Text>();
-        printScore(initScore);
+        displayScore(initScore);
     }
 
-    public void increaseScore(int n) {
-        currentScore += n;
-        printScore(currentScore);
+    public void increaseScore(int num) {
+        currentScore += num;
+        displayScore(currentScore);
     }
 
-    public void decreaseScore(int n) {
-        currentScore -= n;
-        printScore(currentScore);
+    public void decreaseScore(int num) {
+        currentScore -= num;
+        displayScore(currentScore);
     }
 
-    // a helper method to print generate a text representation
-    private void printScore(int n) {
-        scoreText.text = n.ToString();
+    // a helper method to generate a text representation
+    private void displayScore(int num) {
+        scoreText.text = num.ToString();
     }
 }
 

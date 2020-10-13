@@ -1,16 +1,30 @@
 ﻿<Properties StartupConfiguration="{8C8247AA-F327-8749-220A-091D47E37176}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ScoreScript.cs" Line="16" Column="31" />
+      <File FileName="Assets/Scripts/DropperScript.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/PusherScript.cs" Line="15" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="Coin Pusher" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ScoreScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e40fd33-f292-48e6-8ede-4668c997e5f3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfaf13e5-be84-417b-a438-35fe9d7cd00d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
