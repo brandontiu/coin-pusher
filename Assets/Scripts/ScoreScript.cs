@@ -30,5 +30,9 @@ public class ScoreScript : MonoBehaviour {
     private void displayScore(int num) {
         scoreText.text = num.ToString();
     }
+
+    public int getCurrentScore() {
+        return currentScore;
+    }
 }
 

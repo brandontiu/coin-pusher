@@ -42,7 +42,7 @@ public class DropperScript : MonoBehaviour {
 
         // if user wants to drop a coin, create a coin and decrease
         // the user's score by 1
-        if (Input.GetKeyDown("space")) {
+        if (Input.GetKeyDown("space") & ss.getCurrentScore() > 0) {
             Instantiate(coin, this.transform.position, this.transform.rotation);
             ss.decreaseScore(1);
         }
